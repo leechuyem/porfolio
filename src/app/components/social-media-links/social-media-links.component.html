@@ -1,17 +1,19 @@
 <div class="row justify-content-center">
-  <div *ngFor="let btn of btns">
-    <app-button
-      innerHtml="<i class='{{ btn }}'></i>"
-      buttonClass="button inline"
-      l1BgCol="#f6f6f6"
-      l1BorCol="#334252"
-      l1TxtCol="#143D59"
-      l2TxtCol="#f4b41a"
-      l3BgCol="#f4b41a"
-      l3BorCol="#f4b41a"
-    ></app-button>
+  <div *ngFor="let icon of icons">
+    <a href="{{ icon.link }}">
+      <app-button
+        innerHtml="<i class='{{ icon.icon }}'></i>"
+        buttonClass="button inline"
+        l1BgCol="#f6f6f6"
+        l1BorCol="#334252"
+        l1TxtCol="#143D59"
+        l2TxtCol="#f4b41a"
+        l3BgCol="#f4b41a"
+        l3BorCol="#f4b41a"
+        spacing="5px"
+      ></app-button>
+    </a>
     <div class="all-pad-md inline"></div>
     <div class="all-pad-md"></div>
-
   </div>
 </div>
