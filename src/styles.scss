@@ -126,12 +126,12 @@ $p-colour: $oxford-blue;
 
 
 // SECTION Icon
-.fa, .fab {
+.fa, .fab, .fas {
   font-size: 24px;
 }
 
 .l1, .l2 {
-  .fa, .fab {
+  .fa, .fab, .fas {
     color: var(--txt-col);
   }
 }
