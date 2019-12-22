@@ -13,7 +13,7 @@ export class ButtonComponent implements OnInit {
   @Input() l2TxtCol;
   @Input() l3BgCol;
   @Input() l3BorCol;
-
+  @Input() spacing;
   @Input() buttonClass;
 
   constructor() {}

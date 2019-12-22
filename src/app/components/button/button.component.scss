@@ -39,8 +39,8 @@
 }
 
 .l2 {
-  top: $spacing-sm;
-  left: $spacing-sm;
+  top: var(--spacing);
+  left: var(--spacing);
   z-index: -1;
   color: var(--txt-col);
 
@@ -51,8 +51,8 @@
 }
 
 .l3 {
-  top: $spacing-sm * 1.8;
-  left: $spacing-sm * 1.8;
+  top: calc(var(--spacing) * 2);
+  left: calc(var(--spacing) * 2);
   border: $border-width solid var(--border-col);
   z-index: -2;
 
