@@ -107,12 +107,19 @@ a:hover {
   padding-top: $spacing-xs;
 }
 
+.pr-lg {
+  padding-right: $spacing-lg;
+}
 .pr-md {
   padding-right: $spacing-md;
 }
 
 .pr {
   padding-right: $spacing;
+}
+
+.pr-sm {
+  padding-right: $spacing-sm;
 }
 
 .pl {
@@ -151,6 +158,28 @@ a:hover {
 .l1, .l2 {
   .fa, .fab, .fas {
     color: var(--txt-col);
+  }
+}
+
+@keyframes move {
+  100% {
+      background-position: 500px 0;
+  }
+}
+
+@keyframes rotate {
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+      transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+      transform: rotate(0deg);
   }
 }
 // !SECTION Icon
