@@ -8,7 +8,6 @@ $p-colour: $oxford-blue;
 
 * {
   color: $p-colour;
-  --main-bg-color: coral;
 }
 
 .xlg-txt {
@@ -19,14 +18,13 @@ $p-colour: $oxford-blue;
   font-size: large;
 }
 
+.sm-txt {
+  font-size: small;
+}
+
 .norm-font {
   font-family: $norm-font;
 }
-
-.icon {
-  font-size: 24px;
-}
-
 // !SECTION Font
 
 // SECTION Components
@@ -35,7 +33,6 @@ $p-colour: $oxford-blue;
 }
 
 
-// SECTION Components
 
 // SECTION Boundings
 
@@ -63,14 +60,13 @@ $p-colour: $oxford-blue;
   background-color: $elephant;
 }
 // !SECTION Home Page
-// !SECTION
 
 // SECTION Spacing
 .no-margin {
   margin: 0;
 }
 
-.pt {
+.pt-lg {
   padding-top: $spacing-lg;
 }
 
@@ -81,4 +77,22 @@ $p-colour: $oxford-blue;
 .all-pad-sm {
   padding: $spacing-sm;
 }
+
+.all-pad-md {
+  padding: $spacing-md;
+}
 // !SECTION spacing
+
+
+// SECTION Icon
+.fa {
+  font-size: 24px;
+}
+
+.l1, .l2 {
+  .fa {
+    color: var(--txt-col);
+  }
+}
+
+// !SECTION Icon
