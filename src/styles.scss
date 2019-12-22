@@ -2,21 +2,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "styles/variables.scss";
 
-@import url("https://fonts.googleapis.com/css?family=Heebo:800,900|Kulim+Park:600,700&display=swap");
 
 // SECTION Font
 $p-colour: $oxford-blue;
-$norm-font: "Kulim Park", sans-serif;
-$bold-font: "Heebo", sans-serif;
-
 
 * {
   color: $p-colour;
   --main-bg-color: coral;
 }
 
-.lg-txt {
+.xlg-txt {
   font-size: x-large;
+}
+
+.lg-txt {
+  font-size: large;
 }
 
 .norm-font {
@@ -32,58 +32,7 @@ $bold-font: "Heebo", sans-serif;
   position: relative;
 }
 
-.button {
-  position: relative;
-}
 
-.button:hover {
-  cursor: pointer;
-}
-
-.first-layer,
-.second-layer {
-  font-family: $bold-font;
-  font-weight: 800;
-  font-size: large;
-}
-
-.second-layer,
-.third-layer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.first-layer {
-  padding: $spacing-sm;
-  background-color: var(--bg-col);
-  border: $border-width solid var(--border-col);
-
-  :hover > & {
-    visibility: hidden;
-  }
-}
-
-.second-layer {
-  top: $spacing-sm;
-  left: $spacing-sm;
-  z-index: -1;
-}
-
-.third-layer {
-  top: $spacing-sm * 1.8;
-  left: $spacing-sm * 1.8;
-  border: $border-width solid var(--border-col);
-  z-index: -2;
-
-  :hover > & {
-    background-color: var(--bg-col);
-    border: 0px;
-  }
-}
 // SECTION Components
 
 // SECTION Boundings
