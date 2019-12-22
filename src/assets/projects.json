@@ -1,0 +1,84 @@
+[
+    {
+        "name": "DGHA MOBILE APP",
+        "desc": "A designer/developer of a location rating app designed to be assessible for vision impaired individuals with an assistance animal.",
+        "languages": [
+            "Flutter",
+            ".NET Core",
+            "Angular"
+        ],
+        "link": "",
+        "img": "../../../assets/img/dgha.png",
+        "primaryColour": "#142e4c",
+        "secondaryColour": "#fad000",
+        "l1TxtColour": "#142e4c",
+        "l2TxtColour": "#142e4c"
+    },
+    {
+        "name": "MOOSH",
+        "desc": "Ported a React app to Unity game engine while adding new game mechanics. The game aims to teach children about healthy diet.",
+        "languages": [
+            "Unity",
+            "C#"
+        ],
+        "link": "",
+        "img": "../../../assets/img/moosh.png",
+        "primaryColour": "#46375b",
+        "secondaryColour": "#05ab8c",
+        "l1TxtColour": "#46375b",
+        "l2TxtColour": "#f6f6f6"
+    },
+    {
+        "name": "MY SCHOOL REMEMBERS",
+        "desc": "A Front-end developer of an interactive map web app that explore the lives of the Australian World War I soilders",
+        "languages": [
+            "React JS"
+        ],
+        "link": "",
+        "img": "../../../assets/img/msr.png",
+        "primaryColour": "#cc3f5c",
+        "secondaryColour": "#00c0ff",
+        "l1TxtColour": "#cc3f5c",
+        "l2TxtColour": "#f6f6f6"
+    },
+    {
+        "name": "DRAGON AGE CODEX APP",
+        "desc": "A mobile app that archives all the codex entries from Dragon Age Inquisition.",
+        "languages": [
+            "Flutter",
+            "Node JS"
+        ],
+        "link": "",
+        "img": "../../../assets/img/dai.png",
+        "primaryColour": "#cb3737",
+        "secondaryColour": "#444b54",
+        "l1TxtColour": "#cb3737",
+        "l2TxtColour": "#f6f6f6"
+    },
+    {
+        "name": "A SHORT MAGIC SHOW",
+        "desc": "A colourful puzzle game for magicians. A throwback to the early 2000s era of Microsoft Paint.",
+        "languages": [
+            "GameMaker"
+        ],
+        "link": "",
+        "img": "../../../assets/img/asms.png",
+        "primaryColour": "#68bdc4",
+        "secondaryColour": "#ffbec7",
+        "l1TxtColour": "#68bdc4",
+        "l2TxtColour": "#68bdc4"
+    },
+    {
+        "name": "BONGO CAT (TOY)",
+        "desc": "A musical toy inspired by the famous Bongo Cat. There are four different instruments to play as Bongo Cat.",
+        "languages": [
+            "GameMaker"
+        ],
+        "link": "",
+        "img": "../../../assets/img/bongo.png",
+        "primaryColour": "#f3b3aa",
+        "secondaryColour": "#334252",
+        "l1TxtColour": "#334252",
+        "l2TxtColour": "#f3b3aa"
+    }
+]
