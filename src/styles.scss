@@ -30,6 +30,8 @@ $p-colour: $oxford-blue;
 // SECTION Components
 .box {
   position: relative;
+  border: $border-width solid var(--bor-col);
+  box-shadow: $spacing $spacing var(--sh-col);
 }
 
 // SECTION Display
@@ -64,6 +66,7 @@ $p-colour: $oxford-blue;
   background-color: $elephant;
 }
 // !SECTION Home Page
+// !SECTION
 
 // SECTION Spacing
 .no-margin {
@@ -72,6 +75,18 @@ $p-colour: $oxford-blue;
 
 .pt-lg {
   padding-top: $spacing-lg;
+}
+
+.pt-md {
+  padding-top: $spacing-md;
+}
+
+.pt {
+  padding-top: $spacing;
+}
+
+.pt-xs {
+  padding-top: $spacing-xs;
 }
 
 .pr-md {
@@ -90,6 +105,10 @@ $p-colour: $oxford-blue;
   padding-left: $spacing-md;
 }
 
+.pb-lg {
+  padding-bottom: $spacing-lg;
+}
+
 .all-pad {
   padding: $spacing;
 }
@@ -101,6 +120,8 @@ $p-colour: $oxford-blue;
 .all-pad-md {
   padding: $spacing-md;
 }
+
+
 // !SECTION spacing
 
 
@@ -114,5 +135,4 @@ $p-colour: $oxford-blue;
     color: var(--txt-col);
   }
 }
-
 // !SECTION Icon
