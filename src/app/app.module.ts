@@ -8,6 +8,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SocialMediaLinksComponent } from './components/social-media-links/social-media-links.component';
+import { HeadingComponent } from './components/heading/heading.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SocialMediaLinksComponent } from './components/social-media-links/socia
     ProjectsComponent,
     ButtonComponent,
     SocialMediaLinksComponent,
+    HeadingComponent,
   ],
   imports: [
     BrowserModule,
