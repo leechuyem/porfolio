@@ -82,6 +82,14 @@ $p-colour: $oxford-blue;
   padding-right: $spacing;
 }
 
+.pl {
+  padding-left: $spacing;
+}
+
+.pl-md {
+  padding-left: $spacing-md;
+}
+
 .all-pad {
   padding: $spacing;
 }
