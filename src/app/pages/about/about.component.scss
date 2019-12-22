@@ -1,19 +1,14 @@
 .hi-five {
     color: #00539C;
+    transform: rotate(0deg);
 }
 
 .hi-five:hover {
     cursor: grab;
-    transform: rotate(15deg);
     background: url(../../../assets/img/rainbow.jpg);
     background-clip: text;
     color: transparent;
     background-size: 100px 63px;
-    animation: move 100s infinite linear forwards;
-}
-
-@keyframes move {
-    100% {
-        background-position: 5000px 0;
-    }
+    animation: move 25s infinite linear forwards,
+    rotate 1.5s infinite linear forwards;
 }
