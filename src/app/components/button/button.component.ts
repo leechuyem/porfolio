@@ -10,6 +10,7 @@ export class ButtonComponent implements OnInit {
   @Input() l1BgCol;
   @Input() l1BorCol;
   @Input() l1TxtCol;
+  @Input() l2BgCol;
   @Input() l2TxtCol;
   @Input() l3BgCol;
   @Input() l3BorCol;

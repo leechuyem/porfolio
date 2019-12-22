@@ -5,6 +5,10 @@
   cursor: pointer;
 }
 
+.min-width {
+  min-width: 200px;
+}
+
 .l1,
 .l2,
 .l3 {
@@ -43,6 +47,7 @@
   left: var(--spacing);
   z-index: -1;
   color: var(--txt-col);
+  background-color: var(--bg-col);
 
   a {
     text-decoration: none;
