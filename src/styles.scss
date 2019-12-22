@@ -32,7 +32,11 @@ $p-colour: $oxford-blue;
   position: relative;
 }
 
-
+// SECTION Display
+.inline {
+  display: inline-block;
+}
+// SECTION
 
 // SECTION Boundings
 
@@ -70,6 +74,14 @@ $p-colour: $oxford-blue;
   padding-top: $spacing-lg;
 }
 
+.pr-md {
+  padding-right: $spacing-md;
+}
+
+.pr {
+  padding-right: $spacing;
+}
+
 .all-pad {
   padding: $spacing;
 }
@@ -85,12 +97,12 @@ $p-colour: $oxford-blue;
 
 
 // SECTION Icon
-.fa {
+.fa, .fab {
   font-size: 24px;
 }
 
 .l1, .l2 {
-  .fa {
+  .fa, .fab {
     color: var(--txt-col);
   }
 }
