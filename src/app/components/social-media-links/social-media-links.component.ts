@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social-media-links.component.scss']
 })
 export class SocialMediaLinksComponent implements OnInit {
-  // btns: String[] = ["<>"]
+  btns: String[] = ["fa fa-envelope", "fab fa-twitter", "fab fa-github"]
   constructor() { }
 
   ngOnInit() {

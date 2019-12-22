@@ -1,21 +1,17 @@
-<!-- <div class="col-12">
-  <app-button
-    columnClass="col"
-    buttonClass="icon-button"
-    innerHtml=''
-  ></app-button>
-</div> -->
+<div class="row justify-content-center">
+  <div *ngFor="let btn of btns">
+    <app-button
+      innerHtml="<i class='{{ btn }}'></i>"
+      buttonClass="button inline"
+      l1BgCol="#f6f6f6"
+      l1BorCol="#334252"
+      l1TxtCol="#143D59"
+      l2TxtCol="#f4b41a"
+      l3BgCol="#f4b41a"
+      l3BorCol="#f4b41a"
+    ></app-button>
+    <div class="all-pad-md inline"></div>
+    <div class="all-pad-md"></div>
 
-<app-button
-  innerHtml="<i class='fa fa-envelope'></i>"
-  buttonClass="icon-button"
-  columnClass="col"
-  l1BgCol="#f6f6f6"
-  l1BorCol="#334252"
-  l1TxtCol="#143D59"
-  l2TxtCol="#f4b41a"
-  l3BgCol="#f4b41a"
-  l3BorCol="#f4b41a"
-></app-button>
-
-
+  </div>
+</div>
