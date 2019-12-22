@@ -14,9 +14,7 @@ export class ButtonComponent implements OnInit {
   @Input() l3BgCol;
   @Input() l3BorCol;
 
-  @Input() displayClass;
   @Input() buttonClass;
-  @Input() columnClass;
 
   constructor() {}
 

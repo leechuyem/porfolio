@@ -1,26 +1,21 @@
-<div class="row justify-content-center pr-3">
-  <div [ngClass]="columnClass">
-    <div [ngClass]="buttonClass">
-      <div
-        class="l1 lg-txt"
-        [style.--bg-col]='l1BgCol'
-        [style.--border-col]='l1BorCol'
-        [style.--txt-col]='l1TxtCol'
-        [innerHtml]="innerHtml"
-      >
-      </div>
-      <div
-        class="l2 elephant-bg"
-        [style.--txt-col]="l2TxtCol"
-        [innerHtml]='innerHtml'
-      >
-        <a href="#"></a>
-      </div>
-      <div
-        class="l3"
-        [style.--bg-col]='l3BgCol'
-        [style.--border-col]= 'l3BorCol'
-      ></div>
-    </div>
+<div [ngClass]="buttonClass">
+  <div
+    class="l1 lg-txt"
+    [style.--bg-col]="l1BgCol"
+    [style.--border-col]="l1BorCol"
+    [style.--txt-col]="l1TxtCol"
+    [innerHtml]="innerHtml"
+  ></div>
+  <div
+    class="l2 elephant-bg"
+    [style.--txt-col]="l2TxtCol"
+    [innerHtml]="innerHtml"
+  >
+    <a href="#"></a>
   </div>
+  <div
+    class="l3"
+    [style.--bg-col]="l3BgCol"
+    [style.--border-col]="l3BorCol"
+  ></div>
 </div>

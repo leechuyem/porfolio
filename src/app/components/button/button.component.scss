@@ -1,13 +1,8 @@
 @import "../../../styles/variables.scss";
 
-.button,
-.icon-button {
+.button {
   position: relative;
   cursor: pointer;
-}
-
-.icon-button {
-  display: inline-block;
 }
 
 .l1,
