@@ -1,7 +1,10 @@
 <!-- SECTION Box -->
 <div class="row justify-content-center pr">
-  <div class="col-lg-6 col-md-9 pt-lg align-self-center">
-    <div class="box norm-font all-pad-md buttercup-border buttercup-shadow">
+  <div class="col-lg-6 col-md-9 align-self-center pt-lg">
+    <div
+      class="box norm-font all-pad-md"
+      style="--bor-col: #f4b41a; --sh-col: #f4b41a;"
+    >
       <!-- NOTE Text  -->
       <div class="xlg-txt" align="center">
         World's coolest software developer
@@ -17,10 +20,11 @@
           <a routerLink="{{ btn.link }}">
             <app-button
               innerHtml="{{ btn.text }}"
-              buttonClass="button"
+              buttonClass="button min-width"
               l1BgCol="#f6f6f6"
-              l1BorCol="#334252"
+              l1BorCol="#143D59"
               l1TxtCol="#143D59"
+              l2BgCol="#143D59"
               l2TxtCol="#f4b41a"
               l3BgCol="#f4b41a"
               l3BorCol="#f4b41a"
