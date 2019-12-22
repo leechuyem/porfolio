@@ -62,7 +62,7 @@
             "GameMaker"
         ],
         "link": "https://spaaacey.itch.io/a-short-magic-show",
-        "img": "../../../assets/img/asms.png",
+        "img": "../../../assets/asms.png",
         "primaryColour": "#68bdc4",
         "secondaryColour": "#ffbec7",
         "l1TxtColour": "#68bdc4",
@@ -75,7 +75,7 @@
             "GameMaker"
         ],
         "link": "https://spaaacey.itch.io/bongo-and-other-instruments-cat",
-        "img": "../../../assets/img/bongo.png",
+        "img": "../../../assets/bongo.png",
         "primaryColour": "#f3b3aa",
         "secondaryColour": "#334252",
         "l1TxtColour": "#334252",

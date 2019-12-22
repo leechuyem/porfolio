@@ -81,8 +81,13 @@
           "options": {
             "browserTarget": "portfolio:build"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "portfolio"
 }
