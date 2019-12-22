@@ -1,31 +1,33 @@
 <!-- SECTION Box -->
 <div class="row justify-content-center">
-  <div class="col-lg-6 col-md-9 pt pad-right align-self-center">
-    <div class="norm-font all-pad buttercup-border buttercup-shadow">
+  <div class="col-lg-6 col-md-9 pt-lg pad-right align-self-center">
+    <div class="norm-font all-pad-md buttercup-border buttercup-shadow">
       <!-- NOTE Text  -->
-      <div class="xlg-txt no-margin" align="center">
+      <div class="xlg-txt" align="center">
         World's coolest software developer
       </div>
-      <div class="small-text darkgrey" align="center">
+      <div class="sm-txt" align="center">
         (Not a scientific fact)
       </div>
 
-      <div class="empty"></div>
-
+      <div class="all-pad-md"></div>
       <!-- NOTE About Btn -->
-      <app-button
-        buttonClass="button"
-        innerHtml="ABOUT"
-        columnClass="col-sm-6 col-xs-8"
-      ></app-button>
 
-      <!-- NOTE Projects Btn -->
-      <app-button
-        buttonClass="button"
-        innerHtml="PROJECTS"
-        columnClass="col-sm-6 col-xs-8"
-      ></app-button>
+      <div *ngFor="let btn of btns">
+        <app-button
+          innerHtml="{{ btn }}"
+          buttonClass="button"
+          columnClass="col-sm-6 col-xs-8"
+          l1BgCol="#f6f6f6"
+          l1BorCol="#334252"
+          l1TxtCol="#143D59"
+          l2TxtCol="#f4b41a"
+          l3BgCol="#f4b41a"
+          l3BorCol="#f4b41a"
+        ></app-button>
 
+        <div class="all-pad-md"></div>
+      </div>
       <div class="layer-one yellow-bg"></div>
     </div>
   </div>
