@@ -7,7 +7,7 @@
             ".NET Core",
             "Angular"
         ],
-        "link": "",
+        "link": "https://github.com/leechuyem/dgha",
         "img": "../../../assets/img/dgha.png",
         "primaryColour": "#142e4c",
         "secondaryColour": "#fad000",
@@ -21,7 +21,7 @@
             "Unity",
             "C#"
         ],
-        "link": "",
+        "link": "https://github.com/leechuyem/moosh-proto2",
         "img": "../../../assets/img/moosh.png",
         "primaryColour": "#46375b",
         "secondaryColour": "#05ab8c",
@@ -34,7 +34,7 @@
         "languages": [
             "React JS"
         ],
-        "link": "",
+        "link": "http://my-school-remembers.azurewebsites.net/",
         "img": "../../../assets/img/msr.png",
         "primaryColour": "#cc3f5c",
         "secondaryColour": "#00c0ff",
@@ -48,7 +48,7 @@
             "Flutter",
             "Node JS"
         ],
-        "link": "",
+        "link": "https://github.com/leechuyem/DAI-Codex",
         "img": "../../../assets/img/dai.png",
         "primaryColour": "#cb3737",
         "secondaryColour": "#444b54",
@@ -61,7 +61,7 @@
         "languages": [
             "GameMaker"
         ],
-        "link": "",
+        "link": "https://spaaacey.itch.io/a-short-magic-show",
         "img": "../../../assets/img/asms.png",
         "primaryColour": "#68bdc4",
         "secondaryColour": "#ffbec7",
@@ -74,7 +74,7 @@
         "languages": [
             "GameMaker"
         ],
-        "link": "",
+        "link": "https://spaaacey.itch.io/bongo-and-other-instruments-cat",
         "img": "../../../assets/img/bongo.png",
         "primaryColour": "#f3b3aa",
         "secondaryColour": "#334252",

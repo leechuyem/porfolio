@@ -11,10 +11,10 @@
       [style.--sh-col]="proj.primaryColour"
       align="center"
     >
-    <div class="pt"></div>
+      <div class="pt"></div>
       <!-- image  -->
       <div class="img-box" [style.--bg-col]="proj.primaryColour">
-          <img src="{{proj.img}}" alt="{{proj.name}}">
+        <img src="{{ proj.img }}" alt="{{ proj.name }}" />
         <!-- <img src="../../asset/img/dgha.png" alt="dgha ios" /> -->
       </div>
 
@@ -37,11 +37,10 @@
 
       <div class="all-pad-md"></div>
 
-
       <!-- btn  -->
       <div class="row justify-content-center pr-md">
         <div class="col-10" align="center">
-          <a href="#">
+          <a href="{{ proj.link }}">
             <app-button
               innerHtml="{{ proj.name }}"
               buttonClass="button inline min-width"
