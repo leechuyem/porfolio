@@ -1,0 +1,17 @@
+.img-box {
+  width: calc(150px + 1.5vw);
+  height: calc(150px + 1.5vw);
+  border-radius: 500px;
+  position: relative;
+  background-color: var(--bg-col);
+
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  padding: 30px;
+}
+
+img {
+    height: 100%;
+    display: inline-block;
+}

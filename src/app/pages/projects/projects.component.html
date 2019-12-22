@@ -1,1 +1,63 @@
-<p>projects works!</p>
+<div class="row justify-content-center pr">
+  <div
+    class="col-md-6 pt-lg"
+    *ngFor="let proj of projects"
+    style="padding-right: 30px;"
+  >
+    <!-- project card  -->
+    <div
+      class="box norm-font lg-txt all-pad-md"
+      [style.--bor-col]="proj.primaryColour"
+      [style.--sh-col]="proj.primaryColour"
+      align="center"
+    >
+    <div class="pt"></div>
+      <!-- image  -->
+      <div class="img-box" [style.--bg-col]="proj.primaryColour">
+          <img src="{{proj.img}}" alt="{{proj.name}}">
+        <!-- <img src="../../asset/img/dgha.png" alt="dgha ios" /> -->
+      </div>
+
+      <div class="pt-md"></div>
+
+      <!-- language  -->
+      <div align="center">
+        <span *ngFor="let lang of proj.languages; last as isLast">
+          <span>{{ lang }}</span>
+          <span *ngIf="!isLast" [style.color]="proj.secondaryColour"> | </span>
+        </span>
+      </div>
+
+      <div class="pt"></div>
+
+      <!-- descrption  -->
+      <div class="desc" align="center">
+        {{ proj.desc }}
+      </div>
+
+      <div class="all-pad-md"></div>
+
+
+      <!-- btn  -->
+      <div class="row justify-content-center pr-md">
+        <div class="col-10" align="center">
+          <a href="#">
+            <app-button
+              innerHtml="{{ proj.name }}"
+              buttonClass="button inline min-width"
+              l1BgCol="#f6f6f6"
+              l1BorCol="{{ proj.secondaryColour }}"
+              l1TxtCol="{{ proj.l1TxtColour }}"
+              l2BgCol="{{ proj.secondaryColour }}"
+              l2TxtCol="{{ proj.l2TxtColour }}"
+              l3BgCol="{{ proj.primaryColour }}"
+              l3BorCol="{{ proj.primaryColour }}"
+              spacing="7.5px"
+            ></app-button>
+          </a>
+          <div class="all-pad-md"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
