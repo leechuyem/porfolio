@@ -1,0 +1,30 @@
+.txt-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#masked {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  top: 6.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  mask-image: url(../../../assets/img/sunglasses.svg);
+  background-color: var(--col);
+  transform: rotate(0deg);
+
+  // -webkit-mask-image: url(https://mdn.mozillademos.org/files/12676/star.svg);
+  // mask-image: url(https://mdn.mozillademos.org/files/12676/star.svg);
+}
+
+#masked:hover {
+  cursor: grab;
+  background-image: url(../../../assets/img/rainbow.jpg);
+  background-size: 100px 94px;
+  animation: move 25s infinite linear forwards,
+    rotate 1.5s infinite linear forwards;
+}
