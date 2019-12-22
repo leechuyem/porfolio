@@ -5,9 +5,9 @@
 
 .hi-five:hover {
     cursor: grab;
-    background: url(https://leechuyem.github.io/test/assets/rainbow.jpg);
+    background-image: url(https://leechuyem.github.io/test/assets/rainbow.jpg);
     background-clip: text;
-    color: transparent;
+    // color: transparent;
     background-size: 100px 63px;
     animation: move 25s infinite linear forwards,
     rotate 1.5s infinite linear forwards;
