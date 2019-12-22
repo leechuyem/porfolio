@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  btn1Txt = "ABOUT";
+  btn2Txt = "PROJECTS";
+
   private currentOverButton: Element = null;
 
   constructor() { }

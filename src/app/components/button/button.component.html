@@ -1,17 +1,19 @@
 <div class="row justify-content-center pr-3">
-  <div class="col-sm-6 col-xs-8">
-    <div class="button">
+  <div [ngClass]="columnClass">
+    <div [ngClass]="buttonClass">
       <div
-        class="first-layer text-center lg-txt"
+        class="first-layer text-center lg-txt {{test}}"
         style="--bg-col: #f6f6f6; --border-col: #334252;"
+        [innerHtml]="innerHtml"
       >
-        ABOUT
+        {{text}}
       </div>
       <div
         class="second-layer text-center elephant-bg"
         style="--txt-col: #f4b41a;"
+        [innerHtml]='innerHtml'
       >
-        <a href="#">ABOUT</a>
+        <a href="#">{{text}}</a>
       </div>
       <div
         class="third-layer"

@@ -1,11 +1,18 @@
 @import "../../../styles/variables.scss";
 
-.button {
+.button,
+.icon-button {
   position: relative;
 }
 
-.button:hover {
+.button:hover,
+.icon-button {
   cursor: pointer;
+}
+
+.icon-button {
+  display: inline-block;
+  font-size: 24px;
 }
 
 .first-layer,
@@ -29,6 +36,7 @@
   padding: $spacing-sm;
   background-color: var(--bg-col);
   border: $border-width solid var(--border-col);
+  color: var(--txt-col);
 
   :hover > & {
     visibility: hidden;
