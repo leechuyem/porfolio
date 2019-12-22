@@ -8,7 +8,7 @@
             "Angular"
         ],
         "link": "https://github.com/leechuyem/dgha",
-        "img": "../../../assets/img/dgha.png",
+        "img": "../../../assets/dgha.png",
         "primaryColour": "#142e4c",
         "secondaryColour": "#fad000",
         "l1TxtColour": "#142e4c",
@@ -22,7 +22,7 @@
             "C#"
         ],
         "link": "https://github.com/leechuyem/moosh-proto2",
-        "img": "../../../assets/img/moosh.png",
+        "img": "../../../assets/moosh.png",
         "primaryColour": "#46375b",
         "secondaryColour": "#05ab8c",
         "l1TxtColour": "#46375b",
@@ -35,7 +35,7 @@
             "React JS"
         ],
         "link": "http://my-school-remembers.azurewebsites.net/",
-        "img": "../../../assets/img/msr.png",
+        "img": "../../../assets/msr.png",
         "primaryColour": "#cc3f5c",
         "secondaryColour": "#00c0ff",
         "l1TxtColour": "#cc3f5c",
@@ -49,7 +49,7 @@
             "Node JS"
         ],
         "link": "https://github.com/leechuyem/DAI-Codex",
-        "img": "../../../assets/img/dai.png",
+        "img": "../../../assets/dai.png",
         "primaryColour": "#cb3737",
         "secondaryColour": "#444b54",
         "l1TxtColour": "#cb3737",
