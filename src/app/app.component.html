@@ -1,5 +1,12 @@
 <!-- nav  -->
 
+<app-nav-bar
+  [primaryColour]="style.primaryColour"
+  [secondaryColour]="style.secondaryColour"
+
+  *ngIf="style.text != 'LEE CHU YEM'"
+></app-nav-bar>
+
 <div class="container">
   <div class="row justify-content-center" style="height: 100vh;">
     <div class="col-12 pt-lg align-self-center" align="center">

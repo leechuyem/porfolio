@@ -9,6 +9,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SocialMediaLinksComponent } from './components/social-media-links/social-media-links.component';
 import { HeadingComponent } from './components/heading/heading.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HeadingComponent } from './components/heading/heading.component';
     ButtonComponent,
     SocialMediaLinksComponent,
     HeadingComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
