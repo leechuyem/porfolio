@@ -8,8 +8,8 @@ import { Router, NavigationEnd } from "@angular/router";
 })
 export class HeadingComponent implements OnInit {
   style = {
-    bgCol: "#143D59",
-    shCol: "#F4B41A",
+    bgCol: "",
+    shCol: "",
     text: ""
   };
 
@@ -23,14 +23,14 @@ export class HeadingComponent implements OnInit {
     {
       route: "/about",
       text: "WHO AM I?",
-      bgCol: "#143D59",
-      shCol: "#F4B41A"
+      bgCol: "#00539C",
+      shCol: "#FF9552"
     },
     {
       route: "/projects",
       text: "PROJECTS",
-      bgCol: "#143D59",
-      shCol: "#F4B41A"
+      bgCol: "#283350",
+      shCol: "#f93800"
     }
   ];
 
