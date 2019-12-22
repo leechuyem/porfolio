@@ -25,6 +25,24 @@ $p-colour: $oxford-blue;
 .norm-font {
   font-family: $norm-font;
 }
+
+.bold-font {
+  font-family: $bold-font;
+}
+
+a {
+  color: var(--primary-colour) !important;
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 2px solid var(--secondary-colour);
+
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: var(--secondary-colour) !important;
+  background-color: var(--primary-colour);
+}
 // !SECTION Font
 
 // SECTION Components
