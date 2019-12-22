@@ -1,5 +1,7 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Input } from "@angular/core";
 import { Router, NavigationEnd } from "@angular/router";
+import { RouteUrl } from 'src/app/models/route-url.enum';
+import { Styles } from '../../misc/const';
 
 @Component({
   selector: "app-heading",
@@ -7,47 +9,12 @@ import { Router, NavigationEnd } from "@angular/router";
   styleUrls: ["./heading.component.scss"]
 })
 export class HeadingComponent implements OnInit {
-  style = {
-    bgCol: "",
-    shCol: "",
-    text: ""
-  };
+  @Input() text;
+  @Input() primaryColour;
+  @Input() secondaryColour;
 
-  styles = [
-    {
-      route: "/home",
-      text: "LEE CHU YEM",
-      bgCol: "#143D59",
-      shCol: "#F4B41A"
-    },
-    {
-      route: "/about",
-      text: "WHO AM I?",
-      bgCol: "#00539C",
-      shCol: "#FF9552"
-    },
-    {
-      route: "/projects",
-      text: "PROJECTS",
-      bgCol: "#283350",
-      shCol: "#f93800"
-    }
-  ];
-
-  constructor(private router: Router) {}
+  constructor() {}
 
   ngOnInit() {
-    this.router.events.subscribe((event: any) => {
-      if (event instanceof NavigationEnd) {
-        let url = this.router.url;
-        this.style = this.styles[RouteUrl[url]];
-      }
-    });
   }
-}
-
-enum RouteUrl {
-  "/home" = 0,
-  "/about" = 1,
-  "/projects" = 2
 }
