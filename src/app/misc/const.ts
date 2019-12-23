@@ -15,6 +15,6 @@ export const Styles = [
     route: "/projects",
     text: "PROJECTS",
     primaryColour: "#283350",
-    secondaryColour: "#f93800"
+    secondaryColour: "#FF7081"
   }
 ];
