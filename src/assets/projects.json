@@ -15,19 +15,6 @@
         "l2TxtColour": "#142e4c"
     },
     {
-        "name": "MY SCHOOL REMEMBERS",
-        "desc": "A Front-end developer of an interactive map web app that explore the lives of the Australian World War I soilders.",
-        "languages": [
-            "React JS"
-        ],
-        "link": "http://my-school-remembers.azurewebsites.net/",
-        "img": "https://leechuyem.github.io/assets/msr.png",
-        "primaryColour": "#ff8260",
-        "secondaryColour": "#5B84B1",
-        "l1TxtColour": "#5B84B1",
-        "l2TxtColour": "#ffbba8"
-    },
-    {
         "name": "MOOSH",
         "desc": "Ported a React app to Unity game engine while adding new game mechanics. The game aims to teach children about healthy diet.",
         "languages": [
@@ -40,6 +27,19 @@
         "secondaryColour": "#05ab8c",
         "l1TxtColour": "#05ab8c",
         "l2TxtColour": "#f6f6f6"
+    },
+    {
+        "name": "MY SCHOOL REMEMBERS",
+        "desc": "A Front-end developer of an interactive map web app that explore the lives of the Australian World War I soilders.",
+        "languages": [
+            "React JS"
+        ],
+        "link": "http://my-school-remembers.azurewebsites.net/",
+        "img": "https://leechuyem.github.io/assets/msr.png",
+        "primaryColour": "#ff8260",
+        "secondaryColour": "#5B84B1",
+        "l1TxtColour": "#5B84B1",
+        "l2TxtColour": "#ffbba8"
     },
     {
         "name": "DRAGON AGE CODEX APP",
