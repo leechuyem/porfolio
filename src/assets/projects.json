@@ -15,6 +15,19 @@
         "l2TxtColour": "#142e4c"
     },
     {
+        "name": "MY SCHOOL REMEMBERS",
+        "desc": "A Front-end developer of an interactive map web app that explore the lives of the Australian World War I soilders.",
+        "languages": [
+            "React JS"
+        ],
+        "link": "http://my-school-remembers.azurewebsites.net/",
+        "img": "https://leechuyem.github.io/assets/msr.png",
+        "primaryColour": "#ff8260",
+        "secondaryColour": "#5B84B1",
+        "l1TxtColour": "#5B84B1",
+        "l2TxtColour": "#ffbba8"
+    },
+    {
         "name": "MOOSH",
         "desc": "Ported a React app to Unity game engine while adding new game mechanics. The game aims to teach children about healthy diet.",
         "languages": [
@@ -25,20 +38,7 @@
         "img": "https://leechuyem.github.io/assets/moosh.png",
         "primaryColour": "#46375b",
         "secondaryColour": "#05ab8c",
-        "l1TxtColour": "#46375b",
-        "l2TxtColour": "#f6f6f6"
-    },
-    {
-        "name": "MY SCHOOL REMEMBERS",
-        "desc": "A Front-end developer of an interactive map web app that explore the lives of the Australian World War I soilders",
-        "languages": [
-            "React JS"
-        ],
-        "link": "http://my-school-remembers.azurewebsites.net/",
-        "img": "https://leechuyem.github.io/assets/msr.png",
-        "primaryColour": "#cc3f5c",
-        "secondaryColour": "#00c0ff",
-        "l1TxtColour": "#cc3f5c",
+        "l1TxtColour": "#05ab8c",
         "l2TxtColour": "#f6f6f6"
     },
     {
@@ -50,9 +50,9 @@
         ],
         "link": "https://github.com/leechuyem/DAI-Codex",
         "img": "https://leechuyem.github.io/assets/dai.png",
-        "primaryColour": "#cb3737",
+        "primaryColour": "#e03e36",
         "secondaryColour": "#444b54",
-        "l1TxtColour": "#cb3737",
+        "l1TxtColour": "#e03e36",
         "l2TxtColour": "#f6f6f6"
     },
     {
@@ -64,9 +64,9 @@
         "link": "https://spaaacey.itch.io/a-short-magic-show",
         "img": "https://leechuyem.github.io/assets/asms.png",
         "primaryColour": "#68bdc4",
-        "secondaryColour": "#ffbec7",
+        "secondaryColour": "#ff9ca9",
         "l1TxtColour": "#68bdc4",
-        "l2TxtColour": "#68bdc4"
+        "l2TxtColour": "#f6f6f6"
     },
     {
         "name": "BONGO CAT (TOY)",
