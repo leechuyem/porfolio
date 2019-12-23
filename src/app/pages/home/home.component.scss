@@ -13,15 +13,15 @@
   top: 6.5px;
   margin-left: 10px;
   margin-right: 10px;
-  -webkit-mask-image: url(https://leechuyem.github.io/test/assets/sunglasses.svg);
-  mask-image: url(https://leechuyem.github.io/test/assets/sunglasses.svg);
+  -webkit-mask-image: url(https://leechuyem.github.io/assets/sunglasses.svg);
+  mask-image: url(https://leechuyem.github.io/assets/sunglasses.svg);
   background-color: var(--col);
   transform: rotate(0deg);
 }
 
 #masked:hover {
   cursor: grab;
-  background-image: url(https://leechuyem.github.io/test/assets/rainbow.jpg);
+  background-image: url(https://leechuyem.github.io/assets/rainbow.jpg);
   background-size: 100px 94px;
   animation: move 25s infinite linear forwards,
     rotate 1.5s infinite linear forwards;
