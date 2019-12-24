@@ -1,8 +1,24 @@
+@media only screen and (max-width: 450px) {
+  .pad {
+      margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+    .pad {
+        margin-left: 80px;
+    }
+}
+
+.pad {
+    padding-right: 24px;
+}
+
 .heading {
-    font-family: 'Heebo', sans-serif;
-    font-size: calc(30px + 1.75vw);
-    font-weight: 900;
-    background-color: var(--bg-col);
-    color: var(--sh-col);
-    box-shadow: 10px 10px var(--sh-col);
+  font-family: "Heebo", sans-serif;
+  font-size: calc(30px + 1.75vw);
+  font-weight: 900;
+  background-color: var(--bg-col);
+  color: var(--sh-col);
+  box-shadow: 10px 10px var(--sh-col);
 }

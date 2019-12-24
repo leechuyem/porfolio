@@ -12,6 +12,7 @@ export class HeadingComponent implements OnInit {
   @Input() text;
   @Input() primaryColour;
   @Input() secondaryColour;
+  @Input() pad;
 
   constructor() {}
 
