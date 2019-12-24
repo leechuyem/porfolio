@@ -1,12 +1,14 @@
 @import "../../../styles/variables.scss";
 
+@media only screen and (min-width: 300px) {
+  .min-width {
+      min-width: 200px;
+  }
+}
+
 .button {
   position: relative;
   cursor: pointer;
-}
-
-.min-width {
-  min-width: 200px;
 }
 
 .l1,
