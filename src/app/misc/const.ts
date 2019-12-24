@@ -8,13 +8,13 @@ export const Styles = [
   {
     route: "/about",
     text: "WHO AM I?",
-    primaryColour: "#00539C",
+    primaryColour: "#143D59",
     secondaryColour: "#FF9552"
   },
   {
     route: "/projects",
     text: "PROJECTS",
-    primaryColour: "#283350",
+    primaryColour: "#143D59",
     secondaryColour: "#FF7081"
   }
 ];
